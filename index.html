@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Folha de estilo de CSS Linkado -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonte do Projeto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script defer src="js/menu.js"></script>
+    
+    <title>Igor Marcondes da Silva</title>
+</head>
+<body>
+    <!-- Sessão de Menu  -->
+    <div class="all">
+    <section class="menu">
+        <div class="menubar">
+                <h3 class="menu__title">igmarcondes</h3>
+            </header>
+            <nav class="navigation">
+                <button
+                class="btn-menu"
+                aria-label="Abrir Menu"
+                aria-label="Fechar Menu"
+                aria-haspopup="true"
+                aria-controls="menu"
+                aria-expanded="false"
+                >
+              <span class="hamburger"></span>
+            </button>
+                <ul class="menunav">
+                    <li class="menu__list__item"><a href="#home">Home</a></li>
+                    <li class="menu__list__item"><a href="#sobremim">Sobre</a></li>
+                    <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                    <li class="menu__list__item"><a href="#formacao">Cursos</a></li>
+                    <li class="menu__list__item"><a href="#xp">Projetos</a></li>
+                    <li class="menu__list__item"><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+<!-- Sessão de Header/Title/Hero -->
+    <section class="title" id="home">
+        <div class="title__div">
+            <img class="title__profile" data-aos="fade-left"
+            data-aos-offset="500"
+            data-aos-easing="ease-in-sine"src="assets\profile.png">
+            <div class="title__container" id="#sobremim"data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <h1 class="title__bio"data-aos="fade-right"
+                data-aos-offset="500"
+                data-aos-easing="ease-in-sine">Olá, eu sou <br>Igor Marcondes</h1>
+                <strong class="strong" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">Desenvolvedor Web Front-end</strong>
+                <p class="title__subsection"data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">Seja muito bem vindo(a) ao meu Portifólio! Conheça alguns projetos desenvolvidos por mim.</p>
+                <ul class="title__network">
+
+                    <!-- links de portifolio -->
+
+                    <li class="title__network__item"><a href="https://github.com/igmarcondes" target="_blank">Portifólio</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+        <!-- Sessão sobre mim -->
+    <section class="about" id="sobremim" >
+        <div class="about__container">
+            <h1 class="about__title" data-aos="zoom-in">Sobre</h1> 
+            <i class="fa-solid fa-caret-right"></i>
+            <p class="p_subtitle"data-aos="zoom-in"> Clique nas perguntas para visualizar as respostas </p>
+            <div class="about__session">
+
+                <div class="about__request">
+                    <button class="accordion" id="pergunta" data-aos="fade-right"onclick="">Quem Sou?</button>
+                    <div class="panel">
+                        <p class="about__paragraph" id="resposta">Meu nome é Igor Marcondes da Silva, sou de Pindamonhangaba SP, estudante de Desenvolvimento Web. </p>
+                    </div>
+
+                    <button class="accordion" id="pergunta" data-aos="fade-right" onclick="">Como eu conheci a área?</button>
+                    <div class="panel">
+                        <p class="about__paragraph" id="resposta">Sempre tive uma forte ligação com o mundo dos Games e dá informática. Há um bom tempo sou membro de diversos grupos sobre desenvolvimento, cursei técnico de informática no Senac e através deste que tive contato com as primeiras linhas de código e me encantei com este ramo.</p>
+                    </div>
+                    <button class="accordion" id="pergunta" data-aos="fade-right" onclick="">Por onde eu comecei?</button>
+                    <div class="panel">
+                        <p class="about__paragraph" id="resposta">Iniciei assistindo tutoriais sobre criação de blogs. Estudei photoshop, linguagem Binária, Hexadecimal, POO (Programação Orientada a Objetos), C#, HTML5, CSS3 e JavaScript... Depois comecei a desenvolver meus próprios sites e landing pages</p>
+                    </div>
+                    <button class="accordion" id="pergunta" data-aos="fade-right" onclick="">O que eu estudo atualmente?</button>
+                    <div class="panel">
+                        <p class="about__paragraph" id="resposta">Atualmente estou estudando Desenvolvimento Web "Front-end" com objetivo de chegar ao mercado de trabalho. Também participo do <a href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank">ONE - Oracle Next Education</a>.
+                            </p>
+                    </div>
+                    <button class="accordion" id="pergunta" data-aos="fade-right" onclick="">Currículo?</button>
+                    <div class="panel">
+                        <p class="about__paragraph"  id="resposta">Sinta-se a vontade para verificar meu currículo.</p>
+                        <a class="cvdownload"href="pdf/curriculo.pdf" target="_blank">Download CV</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Sessão de Skills/Habilidades -->
+    <section class="skills">
+        <h3 class="skills__title" id="skills" data-aos="zoom-in">Skills</h3>
+        <p data-aos="zoom-in">Ferramentas que eu utilizo.</p>
+        <div class="skills__line" data-aos="zoom-in">
+            <div class="skills__box">
+                <ul > 
+                    <li class="skills__img"><img src="assets/html5.svg"></li>
+                </ul>
+                HTML
+            </div>
+            <div class="skills__box" >
+                <ul>
+                    <li class="skills__img"> <img src="assets/css3.svg" alt=""> </li>
+                </ul>
+                CSS
+            </div>
+
+            <div class="skills__box" >
+                <ul>
+                    <li class="skills__img"> <img src="assets/javascript.svg" alt=""></li>
+                    
+                </ul>
+                JavaScript
+            </div>
+
+            <div class="skills__box" >
+                <ul>
+                    <li class="skills__img"><img src="assets/nodejs.svg" alt=""></li>
+                </ul>
+                NodeJS
+            </div>
+
+            <div class="skills__box" >
+                <ul>
+                    <li class="skills__img"> <img src="assets/react.svg" alt=""> </li>
+                </ul>
+                React
+            </div>
+
+            <div class="skills__box" > 
+                <ul>
+                    <li class="skills__img"> <img src="assets/git.svg" alt=""></li>
+                </ul>
+                Git
+            </div>
+            
+            <div class="skills__box" >
+                <ul>
+                    <li class="skills__img"> <img src="assets/github.svg" alt=""></li>
+                </ul>
+                GitHub
+            </div>
+
+            <div class="skills__box" >
+                <ul>
+                    <li class="skills__img"> <img src="assets/windows.svg" alt=""></li>
+                </ul>
+                Windows
+            </div>
+
+            <div class="skills__box" >
+                <ul>
+                    <li class="skills__img"> <img src="assets/linux.svg" alt=""></li>
+                </ul>
+                Linux
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sessão de Histórico Acadêmico -->
+    <section class="academic">
+        <h2 class="academic__title" id="formacao" data-aos="zoom-in">Formação acadêmica</h2>
+        <div class="academic__line" data-aos="zoom-in">
+            <div class="academic__box">
+                <ul>
+                    <li class="academic__img"><img src="assets/alura.svg"></li>
+                </ul>
+                ONE - Oracle Next Education
+            </div>
+            <div class="academic__box">
+                <ul>
+                    <li class="academic__img"><img src="assets/senac.svg"></li>
+                </ul>
+                Técnico em Informática <br>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão de Projetos-->
+    <section class="project">
+        <h2 class="project__title" id="xp" data-aos="zoom-in">Projetos</h2>
+        <div class="project__container" data-aos="zoom-in">   
+            <div class="project__box">
+                <!-- Insira a logo/captura de seu projeto/trabalho -->
+                <div class="project__info">
+                    <div class="project__card">
+                        <h3>Encriptador</h3>
+                        <p>Aplicação Web para gerar criptografia de textos.</p>
+                        <a href="https://igmarcondes.github.io/encrypter/" target="_blank">Visualizar</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="project__box">
+                <div class="project__info">
+                    <div class="project__card">
+                        <h3>Encriptador</h3>
+                        <p>Aplicação Web para gerar criptografia de textos.</p>
+                        <a href="https://igmarcondes.github.io/encrypter/" target="_blank">Visualizar</a>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+    </section>
+    <!-- Sessão de Contato -->
+    <section id="contato"class="contact" >
+        <div class="contact__container">
+            <h2 class="formcontato__title" data-aos="zoom-in">Contato</h2>
+            <section class="contact-content"data-aos="zoom-in">
+                <form  class="form__all" action="https://formsubmit.co/igormarcondesdasilva@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/portifolio/thanks.html">
+                    <div class="spacer-input">
+                        <label for="name" id="name">Nome </label>
+                        <input type="text" name="name" id="name"class="text__nome__form" placeholder="Seu nome..." required>
+                    </div>
+                    <div class="spacer-input">
+                        <label for="email">E-mail </label>
+                        <input type="email" name="email" class="text__email__form" id="email" placeholder="Seu e-mail..." required>                       
+                    </div>
+                    <div class="spacer-input">
+                        <label for="msg">Mensagem </label>
+                        <textarea name="msg" id="msg" class="text__area__form"placeholder="Mande-me uma mensagem..." required></textarea> 
+                    </div>
+                    
+                    <button class="buttomsubmit"type="submit">Enviar</button>
+                </form>
+                <div class="contact_adress_all">
+                    <h2>Fale Comigo</h2>
+                        <div class="contact_adress">     
+                            <a href="#name">igormarcondesdasilva@gmail.com</a>  
+                            <a href="https://wa.me/5512982776663" target="_blank">+55 (12) 98277-6663</a>             
+                        </div>
+                        <h2>Social Media</h2>
+                        <div class="contact_adress">                    
+                            <a href="https://www.linkedin.com/in/igmarcondes/"target="_blank">LinkedIn</a>
+                            <a href="https://github.com/igmarcondes" target="_blank">Github</a>
+                        </div>
+
+                </div>
+            </section>
+    
+        </div>
+    </section>
+    <!-- Sessão de Footer/Rodapé-->
+    <section class="footer">
+        <div class="footer__rodape">
+            <p> Developed by <a href="https://www.linkedin.com/in/igmarcondes/">igmarcondes</a> </p>
+        </div>
+    </section>
+    <!-- Script Linkado do seu documento de JavaScript -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+<script>
+    AOS.init();
+</script>
+<script src="js/validate.js"></script>
+</body>
+</html>
+
